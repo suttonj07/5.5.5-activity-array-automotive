@@ -10,7 +10,10 @@ class Vehicle {
         this.started = false;
         this.numberOfWheels = 0;
     }
-
+    // class Car extends Vehicle {
+    //     constructor(fuel) {
+    //     this.fuel = 0;
+    //     }
     start() {
         if (this.fuel > 0) {
             return this.started = true;
